@@ -103,12 +103,18 @@
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4 font-mono w-full">
-                    <a href="#experience" class="w-full sm:w-auto text-center justify-center bg-brandy text-black border-2 border-brandy px-8 py-4 font-bold text-lg uppercase tracking-wider brutal-card shadow-neo md:shadow-neo-md hover:shadow-neo-hover">
-                        Смотреть опыт
-                    </a>
-                    <a href="#contact" class="w-full sm:w-auto text-center justify-center bg-transparent text-white border-2 border-white px-8 py-4 font-bold text-lg uppercase tracking-wider brutal-card shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] md:shadow-neo-white hover:shadow-neo-hover hover:border-white">
-                        Пригласить на собеседование
-                    </a>
+                    <div class="relative w-full sm:w-auto group">
+                        <div class="absolute inset-0 bg-brandy opacity-40 animate-ping z-0 pointer-events-none rounded"></div>
+                        <a href="#experience" class="relative z-10 w-full sm:w-auto flex text-center justify-center bg-brandy text-black border-2 border-brandy px-8 py-4 font-bold text-lg uppercase tracking-wider brutal-card shadow-neo md:shadow-neo-md hover:shadow-neo-hover">
+                            Смотреть опыт
+                        </a>
+                    </div>
+                    <div class="relative w-full sm:w-auto group">
+                        <div class="absolute inset-0 bg-white opacity-20 animate-ping z-0 pointer-events-none rounded"></div>
+                        <a href="#contact" class="relative z-10 w-full sm:w-auto flex text-center justify-center bg-transparent text-white border-2 border-white px-8 py-4 font-bold text-lg uppercase tracking-wider brutal-card shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] md:shadow-neo-white hover:shadow-neo-hover hover:border-white">
+                            Пригласить на собеседование
+                        </a>
+                    </div>
                 </div>
             </div>
             
